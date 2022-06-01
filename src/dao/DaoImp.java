@@ -14,7 +14,7 @@ public class DaoImp implements DaoInterface {
 	@Override
 	public void insertDb(int id, String name, String track, int mobile, String role) {
 		try {
-			String query = "insert into emp_detail values(?,?,?,?,?)";
+			String query = "insert into emp_detail valudes(?,?,?,?,?)";
 			Connection con = JdbcConnection.connect();
 			PreparedStatement pst = con.prepareStatement(query);
 			pst.setInt(1, id);
