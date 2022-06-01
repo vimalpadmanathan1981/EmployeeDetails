@@ -25,5 +25,4 @@ public class TrackDetail {
 		return "TrackDetail [track=" + track + ", noOfMinds=" + noOfMinds + "]";
 	}
 	//new
-
 }
