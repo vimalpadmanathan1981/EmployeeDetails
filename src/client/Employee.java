@@ -20,7 +20,7 @@ public class Employee {
 		while(condition)
 		{
 			System.out.println("--------------------------------------------");
-			System.out.println("1.insert data\n2.delete data\n3.update phone number\n4.get list of campus minds are in specific track");
+			System.out.println("1.insert data\n2.delete data\n3.update  number\n4.get list of campus minds are in specific track");
 			System.out.println("---------------------------------------------");
 			System.out.println("enter choice: ");
 			choice=sc.nextInt();

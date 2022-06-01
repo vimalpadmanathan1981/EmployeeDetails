@@ -46,7 +46,7 @@ public class DaoImp implements DaoInterface {
 				try {
 					throw new DaoException("query not done");
 				} catch (DaoException e) {
-					// TODO Auto-generated catch block
+					// TODO Auto-generated catch 
 					System.out.println("query not done");
 				}
 			}
